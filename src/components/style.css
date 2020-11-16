@@ -1,0 +1,52 @@
+.img-display{
+    position: relative;
+    z-index: 9;
+}
+
+.name-header{
+    position: relative;
+    z-index: 10;
+    bottom: 70px;
+    left:2px;
+    text-decoration: inherit;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(22, 22, 22);
+}
+
+.google-button{
+    color: black !important;
+    background-color: white !important;
+    outline: none !important;
+}
+.google-button:hover{
+    transform: scale(1.02);
+}
+
+.rooms-card{
+    color:rgb(58, 58, 58);
+    
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+.nav-hover{
+    transition: .2s;
+}
+
+.nav-hover:hover{
+    transform: scale(1.15);
+}
+
+
+.mainBox{
+    transition: .4s;
+}
+.mainBox:hover{
+    transform: scale(1.02);
+     
+}
+
+
+.bg-custom{
+    background-color: black;
+}
